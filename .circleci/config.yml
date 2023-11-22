@@ -1,0 +1,21 @@
+version: 2.1
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build_and_deploy:
+        filters:
+          branches:
+            only:
+              - main
+
+jobs:
+  build_and_deploy:
+    docker:
+      - image: busybox
+    steps:
+      - run:
+          name: hello world
+          command: |
+            echo "Hello world"
