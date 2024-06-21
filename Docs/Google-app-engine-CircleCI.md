@@ -39,7 +39,8 @@ pipenv shell
 This is what it should look like after a successful installation:
 
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700597968958_Screenshot+2023-11-21+211806](https://hackmd.io/_uploads/HJS6Am7UC.png)
+<img width="778" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700597968958_Screenshot+2023-11-21+211806" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/6ff7016d-ef18-46dd-b29a-01a5f25bea3a">
+
 
 Next, run the command:
 
@@ -58,7 +59,8 @@ sphinx-quickstart
 Once you run the command, you get asked a series of questions, exactly the ones in the image below:
 
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700599745595_Screenshot+2023-11-21+214746](https://hackmd.io/_uploads/SkBu28780.png)
+<img width="422" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700599745595_Screenshot+2023-11-21+214746" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/7f3c109d-e468-46d8-b904-d3bfa9034987">
+
 
 Respond to these questions until the whole process is complete.
 
@@ -69,8 +71,8 @@ make html
 ```
 After running the command, your project should look like this in your code editor:
 
+<img width="227" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700600224195_Screenshot+2023-11-21+215541" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/e0a84a49-1738-46b6-a6f2-594e9b963887">
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700600224195_Screenshot+2023-11-21+215541](https://hackmd.io/_uploads/rkhxT8mL0.png)
 
 Within the `build` directory, we have our website files, which look this:
 ```
@@ -104,7 +106,7 @@ Within the `build` directory, we have our website files, which look this:
  
  When we run our project on `localhost:8000`, this is what it looks like on the browser:
  
- ![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700602624194_Screenshot+2023-11-21+223633](https://hackmd.io/_uploads/HJ0FaUXIA.png)
+ <img width="842" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700602624194_Screenshot+2023-11-21+223633" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/04d68613-c801-4b89-9bdb-725ac3414de3">
 
 Congratulations, we have our documentation site live!
 
@@ -134,7 +136,8 @@ gcloud init --project=<"project ID">
 
 Here, you will prompted to log in to Google Cloud like this:
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700650957553_Screenshot+2023-11-22+120153](https://hackmd.io/_uploads/rym8CImU0.png)
+<img width="386" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700650957553_Screenshot+2023-11-22+120153" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/1d617e33-aa8c-430e-b5ec-61a7e75e8a29">
+
 
 Follow the link provided to get your authorization code.
 
@@ -146,16 +149,19 @@ glcloud app deploy
 
 You will get a prompt asking you to choose the location you would like your app to be deployed:
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700654477879_Screenshot+2023-11-22+130059](https://hackmd.io/_uploads/SkAtCI7UC.png)
+<img width="398" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700654477879_Screenshot+2023-11-22+130059" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/4c6980c3-43f0-4ee7-8684-2310305beece">
 
-Choose anyone! and your app will successfully deploy. It’s time to push our code to Github! Alternatively, you can clone my GitHub repo [here](https://github.com/ChisomUma/Google-app-engine-CircleCI).
+
+
+Choose anyone, and your app will successfully deploy. It’s time to push our code to Github! Alternatively, you can clone my GitHub repo [here](https://github.com/ChisomUma/Google-app-engine-CircleCI).
 
 **Note:** The documentation file for this project is located in this repo. You can remove it when make changes to the cloned repo.
 
 ## Link Github repo to CircleCI
 The first thing you need to do is create a [CircleCI account](https://circleci.com/) and link your Github to it. The process is pretty straightforward. Our dashboard should look like this after creating and connecting our project to CircleCI.
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700668023418_Screenshot+2023-11-22+164548](https://hackmd.io/_uploads/BkcBkvmUR.png)
+<img width="754" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700668023418_Screenshot+2023-11-22+164548" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/73608596-7755-4ee9-a2f3-b7908f5cd9ca">
+
 
 Next, in our code editor, we will create a folder named `.circleci` and a `config.yaml` file inside it which contains a code that works like this: first, it defines a workflow, then, the workflow will say; each time we push to the main branch, run this set of jobs. We will also define that job, which will contain the logic of where we build our documentation site and deploy it to the Google App engine.
 
@@ -194,11 +200,13 @@ circleci config validate
 Response:
 
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700671583544_Screenshot+2023-11-22+174555](https://hackmd.io/_uploads/HJs7xDQU0.png)
+<img width="330" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700671583544_Screenshot+2023-11-22+174555" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/d026ae4f-0cc2-4e50-9dd4-b4ff9bf2ebb7">
+
 
 In our CircleCI, you can see the tests, processes, and workflows whenever we push to the main branch on GitHub:
 
-![s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700672537776_Screenshot+2023-11-22+180013](https://hackmd.io/_uploads/BJuSgPQ8C.png)
+<img width="744" alt="s_762DC8729D6070F874B9A6C8613F9867EBE8E5E337A9107440BC3B666C3AB306_1700672537776_Screenshot+2023-11-22+180013" src="https://github.com/ChisomUma/Google-app-engine-CircleCI/assets/98381486/6c509478-b5fd-49fd-a7a5-8c8c17ea998d">
+
 
 Awesome! We have successfully created a CI/CD pipeline. Now, whenever we make changes to our code base or documentation, we can just push to the main, and CircleCI will pick up that change (as demonstrated in the image above) and the job or workflow and make deployments a few minutes later.
 
