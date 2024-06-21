@@ -1,4 +1,10 @@
-
+---
+title: Building a CI/CD pipeline with CircleCI
+category: Documentation
+parent:
+  label: All Guides
+  link: /guides
+---
 
 
 # Building a CI/CD pipeline for a Google App Engine site using CircleCI
@@ -10,10 +16,6 @@ In this project, we built a CI/CD pipeline for a Google App Engine Site using Ci
 * Python installed on your system
 * Google Cloud CLI installed
 
-## What we are building
-
-* Documentation site and connect it to GCP (Google Cloud Platform)
-* Using CircleCI for automation
 
 ## What is CircleCI?
 [CircleCI](https://circleci.com/) is a popular choice for software engineers, particularly DevOps engineers when working on [automation](https://www.aviator.co/blog/automating-integration-tests/) and overall CI/CD integrations. The CI/CD platform helps software teams automate the process of building, testing, and deploying code. As a cloud-based platform, CircleCI allows you to seamlessly integrate with any version control system you choose, such as GitHub, Bitbucket, or GitLab. However, we will be working with GitHub on this article.
